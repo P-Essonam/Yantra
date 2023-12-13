@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Main, Header, Footer } from './sections';
+import { Main } from './sections';
 import { first,second,third,fourth,fifth,sixth } from './assets/images'
 
 const App = () => {
@@ -21,9 +21,7 @@ const App = () => {
   return (
     <main className="min-h-screen text-white flex flex-col" >
       <img src={images[currentImageIndex]} alt="" className="absolute w-screen bg-cover"/>
-      <Header />
       <Main />
-      <Footer />
     </main>
   )
 }

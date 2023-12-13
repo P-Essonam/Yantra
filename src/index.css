@@ -14,7 +14,7 @@
 
 
 @layer utilities {
-  
+
   .nav:hover .navDiv {
     display: flex;
     height: 2px;
