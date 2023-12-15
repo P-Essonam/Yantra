@@ -9,8 +9,8 @@ const Footer = () => {
 
 
   return (
-    <footer className={`fixed z-10 bottom-12 px-4 w-full ${
-      currentPath === '/' ? 'text-white' : 'text-black'
+    <footer className={`fixed z-10 bottom-0 p-4 pb-12 w-full text-sm  ${
+      currentPath === '/' ? 'text-white' : 'text-black bg-primary'
     }`}>
       
       <div className='flex justify-between'>

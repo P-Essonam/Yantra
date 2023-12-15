@@ -9,7 +9,9 @@ const Header = () => {
 
 
   return (
-    <header className='w-full fixed flex top-0 z-10 px-4 py-4'>
+    <header className={`w-full fixed flex top-0 z-10 px-4 py-4 ${
+      currentPath !== '/' ? 'bg-primary' : '' 
+    }`}>
        <h1 className={`text-3xl font-extrabold ${ currentPath !== '/' ? 'text-black' : 'text-white'}`}>
           <span></span>
           YANTRA
